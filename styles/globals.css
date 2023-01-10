@@ -1,0 +1,38 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+/* CartItemList */
+.cartitemlistwrapper {
+  max-height: 522px;
+  overflow-y: auto;
+}
+.cartitemsimage {
+  width: 100%;
+  height: 4vw;
+  object-fit: contain;
+}
+.cartitemqntwrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.cartitemtext {
+  margin-bottom: 0.4rem;
+}
+.cartitemremoveicon {
+  color: red;
+  cursor: pointer;
+}
+/* CartItemList */
